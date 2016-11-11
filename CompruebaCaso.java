@@ -1,3 +1,5 @@
+package ordenar_vector;
+
 public class CompruebaCaso{
 	public static void compruebaVector(int [] vector, int tamaño){
       int n=vector.length;

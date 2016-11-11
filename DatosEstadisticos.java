@@ -1,3 +1,5 @@
+package ordenar_vector;
+
 public class DatosEstadisticos{
     private double tiempo;
     
