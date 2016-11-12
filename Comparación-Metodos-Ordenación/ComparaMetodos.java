@@ -40,7 +40,7 @@ public class ComparaMetodos {
             System.out.printf("Tiempo medio (s)\t\t");
             System.out.printf("%6.4f\t\t\t\t", resultados[0][i][0].dameMediaTiempos());
             System.out.printf("%6.4f\n", resultados[1][i][0].dameMediaTiempos());
-            System.out.printf("Nº medio de comaparaciones\t");
+            System.out.printf("Nº medio de comparaciones\t");
             System.out.printf("%6.2f\t\t\t", resultados[0][i][0].dameMediaComparaciones());
             System.out.printf("%6.2f\n", resultados[1][i][0].dameMediaComparaciones());
             System.out.printf("Nº medio de movimientos\t\t");
@@ -55,7 +55,7 @@ public class ComparaMetodos {
             System.out.printf("Tiempo medio (s)\t\t");
             System.out.printf("%6.4f\t\t\t\t", resultados[0][i][1].dameMediaTiempos());
             System.out.printf("%6.4f\n", resultados[1][i][1].dameMediaTiempos());
-            System.out.printf("Nº medio de comaparaciones\t");
+            System.out.printf("Nº medio de comparaciones\t");
             System.out.printf("%6.2f\t\t\t", resultados[0][i][1].dameMediaComparaciones());
             System.out.printf("%6.2f\n", resultados[1][i][1].dameMediaComparaciones());
             System.out.printf("Nº medio de movimientos\t\t");
