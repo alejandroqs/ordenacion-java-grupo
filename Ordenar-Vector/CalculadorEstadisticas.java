@@ -6,7 +6,7 @@ public class CalculadorEstadisticas {
         DatosEstadisticos de_inv= new DatosEstadisticos();
         DatosEstadisticos de_ran= new DatosEstadisticos();
         DatosEstadisticos[] v_de = new DatosEstadisticos[2];
-        int[] v_inv = GeneraCaso.generaVector(tam_vector,true);
+        int[] v_inv = GeneraCaso.generaVector(tam_vector,false);
         int[] v_ran; //¡Modificado!
         
         //Tiempo Ordenación Inversa.
@@ -16,7 +16,7 @@ public class CalculadorEstadisticas {
         //Tiempo Media Aleatorio.
         double aux = 0.0;
         for (int i = 0; i < 10; i++) {
-            v_ran = GeneraCaso.generaVector(tam_vector,false); //¡Modificado!
+            v_ran = GeneraCaso.generaVector(tam_vector,true); //¡Modificado!
             m.ordena(v_ran, de_ran);
             aux += de_ran.dameTiempo();
         }
