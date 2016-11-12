@@ -25,8 +25,8 @@ public class Ordenar1Vector implements OrdenarVector {
             pos = i;
 
             for (int j = i + 1; j < v.length; j++) {
-                if (menor > v[j]) { //Comparación//
-                    de.añadeComparacion();
+                de.añadeComparacion();                
+		if (menor > v[j]) { //Comparación//
                     menor = v[j];
                     pos = j;
                 }
